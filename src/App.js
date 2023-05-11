@@ -36,7 +36,7 @@ const App = () =>{
         onChange={(e) => setSearchTerm(e.target.value)}
         ></input>
         <img
-          src={searchMovies.svg}
+          src= "search.svg"
           alt="search"
           onClick={()=>searchMovies(searchTerm)}
         />
